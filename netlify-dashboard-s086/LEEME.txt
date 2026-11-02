@@ -1,0 +1,13 @@
+DASHBOARD STOCK Y PRECIOS S086 - PAQUETE PARA NETLIFY (con actualización en línea)
+
+Contenido
+  public/index.html            La página (dashboard)
+  netlify/functions/data.mjs   Guarda y entrega los datos de stock y precios
+  netlify.toml, package.json   Configuración de Netlify
+
+Pasos (ver detalle en el chat)
+  1. Subir esta carpeta a un repositorio de GitHub.
+  2. En Netlify: Add new site > Import an existing project > elegir el repositorio. Deploy.
+  3. En Netlify: Site configuration > Environment variables > crear ADMIN_KEY con la clave que quieras. Luego Deploys > Trigger deploy.
+  4. Abrir la página, pulsar "Cargar Excel stock" y "Cargar PDF oferta". La primera vez pide la ADMIN_KEY.
+  Todos los que tengan el enlace ven los datos nuevos en menos de 1 minuto, sin cuenta de Claude.
